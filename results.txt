@@ -1,0 +1,12 @@
+Password found for hash: 21c2e59531c8710156d34a3c30ac81d5
+The password is Z
+It took 0.000960826873779 seconds
+Password found for hash: e182ebbc166d73366e7986813a7fc5f1
+The password is AD
+It took 0.0230708122253 seconds
+Password found for hash: aeb9573c09919d210512b643907e56b8
+The password is God
+It took 1.71806788445 seconds
+Password found for hash: 81dc9bdb52d04dc20036dbd8313ed055
+The password is 1234
+It took 206.706146002 seconds

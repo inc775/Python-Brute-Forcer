@@ -13,7 +13,7 @@ a_z = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%^&*()
 m = hashlib.md5()
 numhash = len(hashes)
 found = 0
-for i in range(10):
+for i in range(16):
 	for c in itertools.permutations(a_z,i):
 		for num in hashes:
 			mdhash = hashlib.md5(''.join(c)).hexdigest()

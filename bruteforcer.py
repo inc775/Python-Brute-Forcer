@@ -10,7 +10,6 @@ with open(file) as f:
     hashes = f.read().splitlines()
 stime = time.time()
 a_z = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%^&*()_"
-m = hashlib.md5()
 numhash = len(hashes)
 found = 0
 for i in range(16):

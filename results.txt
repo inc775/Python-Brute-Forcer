@@ -10,3 +10,8 @@ It took 1.71806788445 seconds
 Password found for hash: 81dc9bdb52d04dc20036dbd8313ed055
 The password is 1234
 It took 206.706146002 seconds
+Password found for hash: 37e464916dcb6dfc3994ca4549e97272
+The password is AbCdE
+It took 7097.12140799 seconds
+
+It was not able to solve anything further (I let it run for 24 hours). It takes too long to iterate over all 72 combinations with even just 6 letters.

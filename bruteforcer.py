@@ -14,8 +14,8 @@ numhash = len(hashes)
 found = 0
 for i in range(16):
 	for c in itertools.permutations(a_z,i):
+		mdhash = hashlib.md5(''.join(c)).hexdigest()
 		for num in hashes:
-			mdhash = hashlib.md5(''.join(c)).hexdigest()
 			if(mdhash == num):
 				print "Password found for hash: %s" %(hashlib.md5(''.join(c)).hexdigest())
 				print "The password is %s"%(''.join(c))
